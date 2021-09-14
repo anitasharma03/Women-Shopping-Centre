@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        HOME
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <header class="tm-header">
+        <div class="tm-container">
+            <a href="home.html"><img src="Images\logo1.png" alt="logo" width="250"></a>
+            <nav class="tm-nav">
+                <ul>
+                    <b>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="clothing.html">Clothing</a></li>
+					<li><a href="dresses.html">Dresses</a></li>
+					<li><a href="tops.html">Tops</a></li>
+					<li><a href="shoes.html">Shoes & Accessories</a></li>
+					<li><a href="brands.html">Brands</a></li>
+					</b>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="banner" class="desktop">
+            <img class="mySlides" src="images\banner.png" style="width:100%; height=500">
+            <img class="mySlides" src="images\banner1.jpg" style="width:100%; height=500">
+            <img class="mySlides" src="images\banner2.jpg" style="width:100%; height=500">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
+
+        <hr>
+        <br>
+        <section>
+            <figure class="container">
+                <h1><br><b style="margin-left : 10px; font-size: 32px; color: #484848">Feature</b><b style=" font-size: 32px; color: #fb4f14"> Products</b></h1><br>
+                <div class="gallery">
+                    <a href="product01.html"><img src="images\img1.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product01.html">
+                            <h4>Ditsy Floral Print Ruffled Dress</h4>
+                        </a>
+                        <h4>$23.98 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product02.html"><img src="images\img2.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product02.html">
+                            <h4>Rose Floral Print Mini Dress</h4>
+                        </a>
+                        <h4>$250.90 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product03.html"><img src="images\img3.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product03.html">
+                            <h4>Plaid Midi Dress</h4>
+                        </a>
+                        <h4>$50.00 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product04.html"><img src="images\img4.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product04.html">
+                            <h4>Shirt Dress with Tie Belt</h4>
+                        </a>
+                        <h4>$40.00 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product05.html"><img src="images\img5.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product05.html">
+                            <h4>Women's Ruffle Polka Dot Dress</h4>
+                        </a>
+                        <h4>$76.89 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product06.html"><img src="images\img6.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product06.html">
+                            <h4>Contrast Collar Oversized Sweatshirt</h4>
+                        </a>
+                        <h4>$38.89 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product06.html"><img src="images\img7.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product07.html">
+                            <h4>Asos Design pleated cami midi dress</h4>
+                        </a>
+                        <h4>$44.09 CAD</h4>
+                    </figcaption>
+                </div>
+                <div class="gallery">
+                    <a href="product06.html"><img src="images\img8.jpg" alt="car1"></a>
+                    <figcaption class="figcaption">
+                        <a href="product08.html">
+                            <h4>Letter Sun & Moon Graphic Oversized Tee</h4>
+                        </a>
+                        <h4>$12.90 CAD</h4>
+                    </figcaption>
+                </div>
+            </figure>
+
+
+            <div class="best-features about-features">
+                <div class="container">
+                    <div class="best-features">
+                        <br>
+
+                        <h1 style="text-align: center; font-size: 30px; color: #fb4f14"><b>About Shoppers</b></h1><br>
+                        <p style="text-align:justify ; color:black ;font-size: 17px; margin-left:20px; margin-right:20px;"><b>Shoopers was launched in 2006 and have been your fashion
+					bestie ever since. Since those modest beginnings, this publicly owned, family-controlled business has evolved from one women’s clothing store on Boulevard St. 
+					Laurent in Montreal to one of Canada’s largest women’s specialty retailer.Style never sleeps and neither do we – we're 24/7, dropping over 500 new products a week, 
+					so you always have the latest looks for less. We make fashion accessible and fun, so every girl can get the wardrobe of her dreams.One thing we love more than 
+					your amazing style is your individuality –  we want to help you show it off, do your thing and look incredible at the same time.</b></p>
+                        <br>
+                        <a href="aboutus.html"><button class="button button3" href="about-us.html" style ="align:center;">Read More</button></a>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="best-features about-features">
+                <div class="container">
+                    <div class="section-heading">
+                        <br>
+                        <h2 style="margin-left : 10px;">OUR BRANDS</h2>
+                    </div>
+                    <img src="images/logos4.png" style="height:100%; width:100%;" alt="">
+                    <div class="section-heading">
+                    </div>
+                </div>
+
+
+
+                <div class="best-features about-features">
+                    <div class="container">
+                        <article class="browser">
+                            <div class="row">
+                                <div class="section-heading">
+                                    <h2>WHAT OUR CUSTOMERS SAY</h2>
+                                </div>
+                                <a href="product01.html"><img src="images/team_03.jpg" alt="" align="left"></a>
+                                <div class="container">
+                                    <h4 style="font-size: 25px; color: #fb4f14;"> &emsp; Hannah M. ,DENVER, Colorado</h4>
+
+                                    <p style=" font-weight: bold; font-size: 20px; margin-left:25px; "> This is a great shopping platform. Thank you for your service. The clothes that i recieved are of really good quality and fits me as well. Overall a very nice experience, thank you for making our journey great. The
+                                        prices are also really low as compared to other websites I will surely recommend you to my friends and family.</p>
+                                </div>
+                                <br><br><br><br><br>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="section-heading">
+                                </div>
+                                <a href="product01.html"><img src="images/team_01.jpg" alt="" align="left"></a>
+                                <div class="container">
+                                    <h4 style="font-size: 25px; color: #fb4f14;"> &emsp; Robin S. ,Orlando, Florida</h4>
+
+                                    <p style=" font-weight: bold; font-size: 20px; margin-left:25px; "> I love this website because I have ordered from them before and I got exactly what I ordered and they have low prices! Thank you for providing us with such good customer service experience. They provide good quality
+                                        stuff at lowest rates possible. keep up the good business!</p>
+                                </div>
+                                <br><br><br><br><br>
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="section-heading">
+                                </div>
+                                <a href="product01.html"><img src="images/team_02.jpg" alt="" align="left"></a>
+                                <div class="container">
+                                    <h4 style="font-size: 25px; color: #fb4f14;"> &emsp; Mischael S. ,DENVER, Brampton</h4>
+
+                                    <p style=" font-weight: bold; font-size: 20px; margin-left:25px; "> I think that if you go into ordering with Shein with the mindset that you get what you pay for, you won't be disappointed. I've had 3 orders from them now and I like what I purchased. I got a cute little chenille cardigan
+                                        and it's really nice actually. I then ordered some super cheap dresses, full well knowing that they were under £10 and would be less than superior quality - and yes, they are clearly not expensive dresses, but I
+                                        really like them. I also got some scrunchies and hair clips, and to be honest, they are just like the ones you get at Claire's and are absolutely fine.</p>
+                                </div>
+                                <br><br><br><br>
+
+                                <h1 style="text-align : center;">FOR CONTACT RELATED DETAILS</h1>
+                                <a href="contactus.html"><button class="button2 button22" href="about-us.html" style ="align:center; "><b>CLICK HERE</b></button></a>
+                            </div>
+                    </div>
+
+                </div>
+
+
+        </section>
+    </main>
+
+
+
+    <footer class="site-footer" style="margin-top: 36px;">
+        <div class="footer-containers">
+            <div class="footer-content-1">
+                <h1 style="Color: red; font-weight: bold; font-size: xx-large;">SHOPPER</h1>
+                <h3>The Ultimate Shopping Platform</h3>
+                <p style="text-align: justify;">Any Unauthorized reproduction or distribution of the contents of this website is a violation of copyright law and may result in severe civil and criminal penalties. We are always available to help and provide best services to all our customers.
+                    Thankyou for visiting us.</p>
+            </div>
+
+            <div class="footer-content-2">
+                <h2 style="color: white;font-weight: bold; font-size: x-large;">Contact Info</h2>
+                <ul class="footer-links">
+                    <h6>Call Us On</h6>
+                    <li><a href="tel:+118005552356" style="font-size: larger; font-weight: bolder;">18005552356</a></li>
+                    <h6>Email Us At</h6>
+                    <li><a href="mailto:wheelzdealz@yahoo.com" style="font-size: larger; font-weight: bolder;">shoppers00@yahoo.com</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content-3">
+                <h2 style="color: white;font-weight: bold; font-size: x-large;">Explore</h2>
+                <ul class="footer-links">
+                    <li><a href="aboutus.html" style="font-size: larger; font-weight: bolder;">About Us</a></li>
+                    <li><a href="contactus.html" style="font-size: larger; font-weight: bolder;">Contact Us</a></li>
+                    <li><a href="terms.html" style="font-size: larger; font-weight: bolder;">Our Terms</a></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+
+        <div class="footer-containers">
+            <div class="footer-sub-content-1">
+                <p class="copyright-text"> <b>&copy; COPYRIGHT 2020 SHOPPERS EXPRESS. All Rights Reserved.</b></p>
+            </div>
+
+            <div class="footer-sub-content-2">
+                <ul class="social-icons ">
+                    <li><a class="facebook " href="# "><i class="fa fa-facebook "></i></a></li>
+                    <li><a class="twitter " href="# "><i class="fa fa-twitter "></i></a></li>
+                    <li><a class="dribbble " href="# "><i class="fa fa-dribbble "></i></a></li>
+                    <li><a class="linkedin " href="# "><i class="fa fa-linkedin "></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

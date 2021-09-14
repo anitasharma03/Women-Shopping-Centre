@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        HOME
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="login_style.css">
+
+</head>
+
+<body>
+
+    <header class="tm-header">
+        <div class="tm-container">
+            <a href="home.html"><img src="Images\logo1.png" alt="logo" width="250"></a>
+            <nav class="tm-nav">
+                <ul>
+                    <b>
+					<li><a href="login.html">Login</a></li>
+					<li><a href="register.html">Register</a></li>
+					</b>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <hr>
+        <br>
+        <h1 style="text-align : center;">Login Form</h1>
+        <form style="background-color: white;" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <img src="images/avatar2.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" class="login-email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" class="login-password" required>
+
+                <button type="submit" style="margin-left : 230px;" class="login-btn">Login</button><br>
+            </div>
+        </form>
+        <script src="./login.js"></script>
+    </main>
+
+
+
+    <footer class="tm-footer">
+
+        <b>&copy; COPYRIGHT 2020 SHOPPERS EXPRESS</b>
+        <br> Any Unauthorized reproduction or distribution of the contents of this website is a violation of
+        <br> copyright law and may result in severe civil and criminal penalties. All rights reserved.
+    </footer>
+
+
+</body>
+
+</html>
